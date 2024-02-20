@@ -1,0 +1,18 @@
+{
+  "name": "pnpm_workspace",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "vite-vue": "cd ./apps/vite-vue && pnpm run dev",
+    "nuxt-vue": "cd ./apps/nuxt-vue && pnpm run dev",
+    "dev": "concurrently \"pnpm vite-vue\" \"pnpm nuxt-vue\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@vuepic/vue-datepicker": "^8.1.1",
+    "concurrently": "^8.2.2"
+  }
+}
