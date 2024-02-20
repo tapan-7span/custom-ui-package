@@ -1,5 +1,5 @@
 {
-  "name": "pnpm_workspace",
+  "name": "custom_ui_package",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -12,7 +12,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@vuepic/vue-datepicker": "^8.1.1",
     "concurrently": "^8.2.2"
   }
 }
