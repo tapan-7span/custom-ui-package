@@ -1,19 +1,18 @@
 {
-  "name": "vite-vue",
+  "name": "document",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
+    "dev": "vite --port 8080",
     "build": "vite build",
     "preview": "vite preview"
   },
   "dependencies": {
-    "vue": "^3.4.15",
-    "@vuepic/vue-datepicker": "workspace:*"
+    "vue": "^3.4.15"
   },
   "devDependencies": {
-    "@vitejs/plugin-vue": "^5.0.3",
+    "@vitejs/plugin-vue": "^5.0.4",
     "vite": "^5.1.0"
   }
 }
