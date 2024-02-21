@@ -4,10 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build_package": "cd ./apps/nuxt-vue && pnpm run build",
     "playground": "cd ./apps/playground && pnpm run dev",
-    "document": "cd ./apps/document && pnpm run dev",
-    "package": "cd ./packages/ui && pnpm run dev",
-    "dev": "concurrently \"pnpm playground\" \"pnpm document\" \"pnpm package\""
+    "nuxt": "cd ./apps/nuxt-vue && pnpm run dev",
+    "package": "cd ./packages/ui-components && pnpm run dev",
+    "dev": "concurrently \"pnpm playground\" \"pnpm nuxt\" \"pnpm package\""
   },
   "keywords": [],
   "author": "",

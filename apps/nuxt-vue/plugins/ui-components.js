@@ -1,6 +1,5 @@
-// import UiComponents from "../../../packages/ui/dist/ui-components";
-// import "../../../packages/ui/dist/style.css";
-
+import UiComponents from "ui-components";
 export default defineNuxtPlugin((nuxtApp) => {
-  //   nuxtApp.vueApp.use(UiComponents);
+  console.log(">", UiComponents);
+  // nuxtApp.vueApp.use(UiComponents, { app: nuxtApp.vueApp });
 });
