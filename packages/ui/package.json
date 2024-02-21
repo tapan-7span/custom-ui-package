@@ -1,11 +1,22 @@
 {
-  "name": "ui",
-  "private": true,
-  "version": "0.0.0",
+  "name": "ui-components",
+  "private": false,
+  "version": "0.0.1",
   "type": "module",
+  "main": "./dist/ui-components.js",
+  "exports": {
+    ".": {
+      "import": "./dist/ui-components.js",
+      "require": "./dist/ui-components.umd.cjs"
+    },
+    "./style.css": "./dist/style.css"
+  },
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "vite build ",
     "preview": "vite preview"
   },
   "dependencies": {
